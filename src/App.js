@@ -9,6 +9,7 @@ import Map from './Components/Map'
 import {Card, CardContent, Typography} from '@material-ui/core'
 import {sortData } from './Components/util'
 import Table from './Components/Table'
+import LineGraph from './Components/LineGraph'
 
   // https://disease.sh/v3/covid-19/countries
 
@@ -105,6 +106,7 @@ function App() {
             <h3>Live Cases by Country</h3>
             <Table countries={tableData}/>
             <h3>Worldwide new Cases</h3>
+            <LineGraph />
           </CardContent>
       </Card>
     </div>

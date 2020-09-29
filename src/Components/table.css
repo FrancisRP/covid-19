@@ -5,6 +5,7 @@
     background-color: #fff;
     color: #6a5d5d;
     overflow-x: hidden;
+    margin-bottom: 20px;
 }
 
 .table tr:nth-of-type(odd) {
@@ -18,4 +19,8 @@
 
  .table td {
      padding: 0.5rem;
+ }
+
+ .lineGraph {
+     margin-top: 20px;
  }
