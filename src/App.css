@@ -43,7 +43,7 @@ body {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 790px) {
   .app {
     flex-direction: column;
   }
@@ -52,10 +52,7 @@ body {
     margin-top: 20px;
   }
 
-}
-
-@media (max-width: 540px) {
-
+  
   .app__stats {display: unset;}
   .infoBox:not(:last-child) {margin-right: 0 !important;}
   .infoBox {
@@ -63,4 +60,9 @@ body {
   }
 
   .app__header {display: unset;}
+
+}
+
+@media (max-width: 540px) {
+
 }
