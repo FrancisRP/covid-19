@@ -1,5 +1,5 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBxkb8tYxMHYf0QszTsL_t7StLppPCLBgk",
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "covid-19-89122.firebaseapp.com",
     databaseURL: "https://covid-19-89122.firebaseio.com",
     projectId: "covid-19-89122",
