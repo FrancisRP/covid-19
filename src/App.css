@@ -25,8 +25,22 @@ body {
   justify-content: space-between;
 }
 
+.app_dropdown {background: #fff !important;}
+
 .app__left {
   flex: 0.9;
+}
+
+.app__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right .MuiCardContent-root {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+
 }
 
 @media (max-width: 767px) {
@@ -38,4 +52,15 @@ body {
     margin-top: 20px;
   }
 
+}
+
+@media (max-width: 540px) {
+
+  .app__stats {display: unset;}
+  .infoBox:not(:last-child) {margin-right: 0 !important;}
+  .infoBox {
+    margin-top: 15px;
+  }
+
+  .app__header {display: unset;}
 }
